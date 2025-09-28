@@ -1,4 +1,5 @@
-# Writing-Sample This repository contains a Python project analyzing CEO compensation data with pandas.
+# Writing-Sample 
+This repository contains a Python project analyzing CEO compensation data with pandas.
 
 ## Project Structure
 - CEO_COMPENSATION.py : Main Python analysis code
