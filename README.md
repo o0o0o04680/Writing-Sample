@@ -6,6 +6,7 @@ This repository contains a Python project analyzing CEO compensation data with p
 - Final_Analysis_Data_2.csv : Dataset used in the analysis
 - README.md : Documentation
 
-## Download Data
-Click here to download the dataset directly:
-https://raw.githubusercontent.com/o0o0o04680/Writing-Sample/main/Final_Analysis_Data_2.csv
+## To download the entire repository as a ZIP file:
+1. Click the green **Code** button at the top right of this page.
+2. Select **Download ZIP**.
+3. Unzip the file to access all contents (Python code, CSV dataset, README).
