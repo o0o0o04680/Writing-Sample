@@ -6,8 +6,7 @@ from scipy.stats import chi2
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.tools.tools import add_constant
 
-data = pd.read_csv(r"C:\Users\User\OneDrive\Desktop\Python\Final_Analysis_Data_2.csv")
-
+data = pd.read_csv("Final_Analysis_Data_2.csv")
 ## Data Cleaning
 data.info()
 data = data.drop(columns=['roe','joined_co','page'])
@@ -502,3 +501,4 @@ h4 = hausman_test(fe_twoway_unadj, fe_3yr_unadj, "FE(two-way)", "FE(one-way + ye
 for h in (h1, h2, h3, h4):
     print(f"{h['compared']}: chi2 = {h['stat']:.3f}, df = {h['df']}, p = {h['pval']:.4g}")
     print("  params compared:", h["params_compared"])
+
